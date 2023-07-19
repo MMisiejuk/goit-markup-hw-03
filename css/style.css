@@ -19,16 +19,12 @@ a {
 ul {
     padding-left: 0;
     list-style: none;
-    margin: 0 auto;
 }
 
 button {
     cursor: pointer;
 }
 
-h1, h2, h3, h4, h5, h6, ul, p {
-    margin: 0 auto;
-}
 
 body {
     color: var(--body-text-color);
@@ -131,6 +127,7 @@ img {
 
 .first-section {
     background-color: var(--dark-color);
+    padding: 472px 188px 472px 292px;
 }
 
 .hero {
@@ -139,6 +136,10 @@ img {
     line-height: 1.1;
     letter-spacing: 0.02em;
     color: var(--white-color);
+    max-width: 496px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 48px;
 }
 
 .hero-btn {
@@ -149,10 +150,11 @@ img {
     color: var(--white-color);
     background-color: var(--main-color);
     border-radius: 4px;
-}
-
-.footer {
-    background-color: var(--dark-color);
+    border: none;
+    width: 169px;
+    height: 56px;
+    margin: 0 auto;
+    display: block;
 }
 
 .title {
@@ -169,6 +171,7 @@ img {
     letter-spacing: 0.02em;
     line-height: 1.5;
     font-weight: 400;
+    margin: 0 auto;
 }
 
 .third-title {
@@ -205,6 +208,13 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-weight: 400;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: var(--dark-color);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-text {
@@ -213,6 +223,8 @@ img {
     letter-spacing: 0.02em;
     line-height: 1.5;
     font-weight: 400;
+    margin-top: 16px;
+    max-width: 264px;
 }
 
 .portfolio-first-section {
@@ -265,9 +277,11 @@ img {
     letter-spacing: 0.02em;
     line-height: 1.5;
     font-weight: 400;
+    margin: 0 auto;
 }
 
 .img-border {
     border: 1px solid var(--accent-color);
     padding: 16px 32px;
+    border-top: none;
 }
