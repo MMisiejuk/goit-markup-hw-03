@@ -10,6 +10,7 @@
     --white-color: #FFFFFF;
     --modal-background: #FCFCFC;
     --roboto-family: 'Roboto', sans-serif;
+    --raleway-font: 'Raleway', sans-serif;
 }
 
 a {
@@ -64,6 +65,7 @@ section {
 }
 
 .logo {
+    font-family: var(--raleway-font);
     color: var(--main-color);
     font-size: 18px;
     font-weight: 800;
@@ -73,11 +75,13 @@ section {
 }
 
 .secondary-logo {
+    font-family: var(--raleway-font);
     color: var(--dark-color);
 }
 
 .logo-footer {
     color: var(--light-color);
+    font-family: var(--raleway-font);
 }
 
 .header-nav {
