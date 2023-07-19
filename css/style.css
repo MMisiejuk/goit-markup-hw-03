@@ -48,7 +48,7 @@ img {
     margin: 0 auto;
 }
 
-.section {
+section {
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -157,12 +157,22 @@ img {
     display: block;
 }
 
+.second-section {
+    padding: 120px 0;
+}
+
+.main-text-list {
+    display: flex;
+    gap: 24px;
+}
+
 .title {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--dark-color);
+    margin-bottom: 8px;
 }
 
 .main-text {
@@ -174,12 +184,23 @@ img {
     margin: 0 auto;
 }
 
+.third-section {
+    padding-bottom: 120px;
+}
+
 .third-title {
     font-size: 36px;
     color: var(--dark-color);
     font-weight: 700;
     letter-spacing: 0.02em;
     line-height: 1.2;
+    text-align: center;
+    padding-bottom: 72px;
+}
+
+.third-img-list {
+    display: flex;
+    gap: 24px;
 }
 
 .fourth-section {
@@ -192,6 +213,23 @@ img {
     line-height: 1.1;
     letter-spacing: 0.02em;
     color: var(--dark-color);
+    text-align: center;
+    padding-bottom: 72px;
+}
+
+.fourth-img-list {
+    display: flex;
+    gap: 24px;
+}
+
+.our-team {
+    border: 1px solid var(--accent-color);
+    background-color: var(--white-color);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+        0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+        0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    border-radius: 4px;
+    text-align: center;
 }
 
 .members {
@@ -200,6 +238,8 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--dark-color);
+    margin-top: 32px;
+    margin-bottom: 8px;
 }
 
 .members-task {
@@ -208,7 +248,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-weight: 400;
-    margin: 0 auto;
+    margin-bottom: 32px;
 }
 
 .footer {
