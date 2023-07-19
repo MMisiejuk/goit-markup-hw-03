@@ -162,7 +162,7 @@ section {
 }
 
 .second-section {
-    padding: 120px 0;
+    padding-bottom: 0;
 }
 
 .main-text-list {
@@ -188,9 +188,7 @@ section {
     margin: 0 auto;
 }
 
-.third-section {
-    padding-bottom: 120px;
-}
+
 
 .third-title {
     font-size: 36px;
@@ -321,7 +319,6 @@ section {
     letter-spacing: 0.02em;
     line-height: 1.5;
     font-weight: 400;
-    margin: 0 auto;
 }
 
 .img-border {
