@@ -1,0 +1,198 @@
+:root {
+    --dark-color: #2E2F42;
+    --main-color: #4D5AE5;
+    --body-text-color: #434455;
+    --subtle-text: #8E8F99;
+    --light-color: #F4F4FD;
+    --success-color: #31D0AA;
+    --pressed-state: #404BBF;
+    --accent-color: #E7E9FC;
+    --white-color: #FFFFFF;
+    --modal-background: #FCFCFC;
+    --roboto-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+body {
+    color: var(--body-text-color);
+    font-family: var(--roboto-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    background-color: var(--white-color);
+}
+
+.logo {
+    color: var(--main-color);
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+}
+
+.secondary-logo {
+    color: var(--dark-color);
+}
+
+.logo-footer {
+    color: var(--light-color);
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+}
+
+.nav-link:hover, 
+.nav-link:focus {
+    color: var(--main-color);
+}
+
+.contact {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    color: var(--body-text-color);
+    font-weight: 400;
+}
+
+.contact:hover,
+.contact:focus {
+    color: var(--main-color);
+}
+
+.first-section {
+    background-color: var(--dark-color);
+}
+
+.hero {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: var(--white-color);
+}
+
+.hero-btn {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;   
+    color: var(--white-color);
+    background-color: var(--main-color);
+    border-radius: 4px;
+}
+
+.footer {
+    background-color: var(--dark-color);
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+}
+
+.main-text {
+    color: var(--body-text-color);
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.third-title {
+    font-size: 36px;
+    color: var(--dark-color);
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+}
+
+.fourth-section {
+    background-color: var(--light-color);
+}
+
+.fourth-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+}
+
+.members {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+}
+
+.members-task {
+    color: var(--body-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+}
+
+.footer-text {
+    color: var(--light-color);
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.portfolio-btn {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+    color: var(--main-color);
+    background-color: var(--light-color);
+    border-radius: 4px;
+}
+
+.portfolio-btn:focus,
+.portfolio-btn:hover {
+    color: var(--white-color);
+    background-color: var(--pressed-state);
+}
+
+.portfolio-titles {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+}
+
+.item {
+    color: var(--body-text-color);
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    font-weight: 400;
+}
